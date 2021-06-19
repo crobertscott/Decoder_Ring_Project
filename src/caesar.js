@@ -22,22 +22,7 @@ const caesarModule = (function () {
       if (num < 97) {
         num = (num + 26)
       }
-
-      console.log(letter)
-      console.log(letter.charCodeAt(0))
-      console.log("^before^")
-      console.log(" ")
-
-      console.log(shift)
-      console.log("^shift^")
-      console.log(" ")
       
-      const oop = String.fromCharCode(num)  
-      console.log(oop)    
-      console.log(num)
-      console.log("^num after math^")
-      console.log(" ")
-
       return String.fromCharCode(num)
     }).join('')
   }
